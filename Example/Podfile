@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'XBaseSDK_Example', :exclusive => true do
+  pod 'XBaseSDK', :path => '../'
+end
+
+target 'XBaseSDK_Tests', :exclusive => true do
+  pod 'XBaseSDK', :path => '../'
+
+  
+end
