@@ -1,0 +1,33 @@
+{
+  "name": "XBaseSDK",
+  "version": "0.1.0",
+  "summary": "this is base sdk.",
+  "description": "this is base sdk.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/XBaseSDK",
+  "license": "MIT",
+  "authors": {
+    "lhjzzu": "1822657131@qq.com"
+  },
+  "source": {
+    "git": "/Users/chiyou/XBaseSDK",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "XBaseSDK": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "SDWebImage": [
+
+    ]
+  }
+}
