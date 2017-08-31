@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*.{h,m}'
-  s.resource_bundles = {
-    'XBaseSDK' => ['Pod/Assets/*.png']
-  }
+#s.resource_bundles = {
+#   'XBaseSDK' => ['Pod/Assets/*.png']
+# }
 
-  # s.public_header_files = 'Pod/Classes/**/XFetchModel.h','Pod/Classes/**/XModuleInfo.h','Pod/Classes/**/XRegisterApp.h','Pod/Classes/**/XLibManager.h','Pod/Classes/**/XTool.h'
+  s.public_header_files = 'Pod/Classes/**/XFetchModel.h','Pod/Classes/**/XModuleInfo.h','Pod/Classes/**/XRegisterApp.h','Pod/Classes/**/XLibManager.h','Pod/Classes/**/XTool.h'
    s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'SDWebImage'
 end

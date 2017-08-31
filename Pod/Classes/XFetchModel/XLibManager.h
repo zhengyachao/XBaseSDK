@@ -8,8 +8,10 @@
 
 #ifndef XLibManager_h
 #define XLibManager_h
+
 #import "XFetchModel.h"
 #import "XModuleInfo.h"
 #import "XRegisterApp.h"
 #import "XTool.h"
+
 #endif /* XLibManager_h */
